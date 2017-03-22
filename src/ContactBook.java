@@ -9,11 +9,8 @@ public class ContactBook {
 
        private ArrayList<Contact> contacts = new ArrayList<Contact>();
 
-    public void setContacts(ArrayList<Contact> contacts) {
-        this.contacts = contacts;
-    }
 
-    public ArrayList<Contact> getContacts() {
-        return contacts;
+    public void addContact(Contact contact) {
+        this.contacts.add(contact);
     }
 }

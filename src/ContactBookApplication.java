@@ -5,8 +5,11 @@ public class ContactBookApplication {
         Contact contact1 = new Contact("James Cogan", "0634445556");
         Contact contact2 = new Contact("Arthur Litt", "0674445673");
 
-        contact1.toString();
-        System.out.print(contact1);
+        ContactBook contactBook = new ContactBook();
+
+        contactBook.addContact(contact1);
+        contactBook.addContact(contact2);
+        System.out.print(contact1.getContactName());
 
 
 
