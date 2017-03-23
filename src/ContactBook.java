@@ -38,5 +38,4 @@ public class ContactBook {
         return contact;
     }
 
-
 }
