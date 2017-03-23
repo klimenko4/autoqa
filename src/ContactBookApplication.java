@@ -9,10 +9,11 @@ public class ContactBookApplication {
 
         contactBook.addContact(contact1);
         contactBook.addContact(contact2);
-        System.out.print(contact1.getContactName());
 
 
-
+        contactBook.findContactByName("Arthur");
+        contactBook.removeLast();
+        contactBook.showAllContacts();
     }
 
 }
